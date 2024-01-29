@@ -1,0 +1,44 @@
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=128
+encode time (ns): 25021
+encode throughput(MB/s): 479597.1384037408
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=256
+encode time (ns): 14518
+encode throughput(MB/s): 826560.1322496211
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=512
+encode time (ns): 9129
+encode throughput(MB/s): 1314492.2773578705
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=1024
+encode time (ns): 6880
+encode throughput(MB/s): 1744186.0465116280
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=2048
+encode time (ns): 5307
+encode throughput(MB/s): 2261164.4997173543
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=4096
+encode time (ns): 5443
+encode throughput(MB/s): 2204666.5441851919
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=8192
+encode time (ns): 5084
+encode throughput(MB/s): 2360346.1841070023
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=16384
+encode time (ns): 4971
+encode throughput(MB/s): 2414001.2070006039
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=32768
+encode time (ns): 4967
+encode throughput(MB/s): 2415945.2385745924
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=65536
+encode time (ns): 4903
+encode throughput(MB/s): 2447481.1339995922
+ec_xor_encode:
+ encode (k,p,w)=(4,2,8) len=2097152 packetsize=131072
+encode time (ns): 4966
+encode throughput(MB/s): 2416431.7358034640

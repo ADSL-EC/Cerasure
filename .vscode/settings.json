@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "erasure_code.h": "c",
+        "array": "c",
+        "string": "c",
+        "string.h": "c",
+        "test.h": "c",
+        "bitset": "c",
+        "cstdlib": "c",
+        "hash_map": "c",
+        "hash_set": "c",
+        "slist": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "time.h": "c",
+        "raid.h": "c",
+        "match.h": "c",
+        "cauchy.h": "c",
+        "getopt.h": "c",
+        "ratio": "c",
+        "vandermonde.h": "c"
+    }
+}

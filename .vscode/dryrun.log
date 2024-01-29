@@ -1,0 +1,874 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/home/hadoop/nty/isa-l-master_20220708/isa-l-master'
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing aclocal-1.13 
+ 
+ cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing automake-1.13 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --no-create --no-recursion
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking how to create a pax tar archive...  
+gnutar
+ 
+checking for style of include used by make...  
+GNU
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking build system type...  
+x86_64-unknown-linux-gnu
+ 
+checking host system type...  
+x86_64-unknown-linux-gnu
+ 
+checking for gcc option to accept ISO C99...  
+-std=gnu99
+ 
+checking for gcc -std=gnu99 option to accept ISO Standard C...  
+(cached)  
+-std=gnu99
+ 
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for fgrep...  
+/usr/bin/grep -F
+ 
+checking how to print strings...  
+printf
+ 
+checking for ld used by gcc -std=gnu99...  
+/usr/bin/ld
+ 
+checking if the linker (/usr/bin/ld) is GNU ld...  
+yes
+ 
+checking how to run the C preprocessor...  
+gcc -std=gnu99 -E
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking minix/config.h usability...  
+no
+ 
+checking minix/config.h presence...  
+no
+ 
+checking for minix/config.h... no
+ 
+checking whether it is safe to define __EXTENSIONS__...  
+yes
+ 
+checking whether make supports nested variables...  
+(cached)  
+yes
+ 
+checking for BSD- or MS-compatible name lister (nm)...  
+/usr/bin/nm -B
+ 
+checking the name lister (/usr/bin/nm -B) interface...  
+BSD nm
+ 
+checking whether ln -s works...  
+yes
+ 
+checking the maximum length of command line arguments...  
+1572864
+ 
+checking whether the shell understands some XSI constructs...  
+yes
+ 
+checking whether the shell understands "+="...  
+yes
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format...  
+func_convert_file_noop
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format...  
+func_convert_file_noop
+ 
+checking for /usr/bin/ld option to reload object files...  
+-r
+ 
+checking for objdump...  
+objdump
+ 
+checking how to recognize dependent libraries...  
+pass_all
+ 
+checking for dlltool...  
+no
+ 
+checking how to associate runtime and link libraries...  
+printf %s\n
+ 
+checking for ar...  
+ar
+ 
+checking for archiver @FILE support...  
+@
+ 
+checking for strip...  
+strip
+ 
+checking for ranlib...  
+ranlib
+ 
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object...  
+ok
+ 
+checking for sysroot...  
+no
+ 
+checking for mt...  
+no
+ 
+checking if : is a manifest tool...  
+no
+ 
+checking for dlfcn.h...  
+yes
+ 
+checking for objdir...  
+.libs
+ 
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions...  
+no
+ 
+checking for gcc -std=gnu99 option to produce PIC...  
+-fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works...  
+yes
+ 
+checking if gcc -std=gnu99 static flag -static works...  
+yes
+ 
+checking if gcc -std=gnu99 supports -c -o file.o...  
+yes
+ 
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+ 
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking whether -lc should be explicitly linked in...  
+no
+ 
+checking dynamic linker characteristics...  
+GNU/Linux ld.so
+ 
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible...  
+yes
+ 
+checking if libtool supports shared libraries...  
+yes
+ 
+checking whether to build shared libraries...  
+yes
+checking whether to build static libraries...  
+yes
+ 
+checking for a sed that does not truncate output...  
+(cached)  
+/usr/bin/sed
+ 
+checking whether Intel CET is enabled...  
+no
+ 
+checking for yasm...  
+yes
+ 
+checking for modern yasm...  
+yes
+ 
+checking for optional yasm AVX512 support...  
+no
+ 
+checking for nasm...  
+yes
+ 
+checking for modern nasm...  
+yes
+ 
+checking for optional nasm AVX512 support...  
+yes
+ 
+checking for additional nasm AVX512 support...  
+no
+ 
+Using nasm args target "linux" "-f elf64"
+ 
+checking for gf_init_easy in -lgf_complete...  
+yes
+ 
+checking limits.h usability...  
+yes
+ 
+checking limits.h presence...  
+yes
+ 
+checking for limits.h...  
+yes
+ 
+checking for stdint.h...  
+(cached)  
+yes
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for string.h...  
+(cached) yes
+ 
+checking gf_complete.h usability...  
+yes
+checking gf_complete.h presence...  
+yes
+ 
+checking for gf_complete.h... yes
+ 
+checking gf_general.h usability...  
+yes
+ 
+checking gf_general.h presence...  
+yes
+ 
+checking for gf_general.h...  
+yes
+ 
+checking gf_method.h usability...  
+yes
+ 
+checking gf_method.h presence...  
+yes
+ 
+checking for gf_method.h...  
+yes
+ 
+checking gf_rand.h usability...  
+yes
+ 
+checking gf_rand.h presence...  
+yes
+ 
+checking for gf_rand.h...  
+yes
+ 
+checking for inline...  
+inline
+ 
+checking for size_t...  
+yes
+ 
+checking for uint16_t...  
+yes
+ 
+checking for uint32_t...  
+yes
+ 
+checking for uint64_t...  
+yes
+ 
+checking for uint8_t...  
+yes
+ 
+checking for stdlib.h...  
+(cached) yes
+ 
+checking for GNU libc compatible malloc...  
+yes
+ 
+checking for memmove...  
+yes
+ 
+checking for memset...  
+yes
+ 
+checking for getopt...  
+yes
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+
+        isa-l 2.30.0
+        =====
+
+        prefix:                 /usr
+        sysconfdir:             ${prefix}/etc
+        libdir:                 ${exec_prefix}/lib
+        includedir:             ${prefix}/include
+
+        compiler:               gcc -std=gnu99
+        cflags:                 -g -O2
+        ldflags:                
+
+        debug:                  no
+
+ 
+ /bin/sh ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating libisal.pc
+ 
+config.status: executing depfiles commands
+ 
+config.status: executing libtool commands
+ 
+make: Leaving directory `/home/hadoop/nty/isa-l-master_20220708/isa-l-master'
+ 
+make: Entering directory `/home/hadoop/nty/isa-l-master_20220708/isa-l-master'
+echo 'Building isa-l.h'
+echo ''			>> isa-l.h
+ 
+echo '/**'                     >> isa-l.h
+echo ' *  @file isa-l.h'       >> isa-l.h
+echo ' *  @brief Include for ISA-L library' >> isa-l.h
+echo ' */'                     >> isa-l.h
+echo ''                        >> isa-l.h
+echo '#ifndef _ISAL_H_'	>> isa-l.h
+echo '#define _ISAL_H_'	>> isa-l.h
+echo ''			>> isa-l.h
+echo '#define.ISAL_MAJOR_VERSION.2.30.0' |  gawk -F . '{print $1, $2, $3}' >> isa-l.h
+echo '#define.ISAL_MINOR_VERSION.2.30.0' |  gawk -F . '{print $1, $2, $4}' >> isa-l.h
+echo '#define.ISAL_PATCH_VERSION.2.30.0' |  gawk -F . '{print $1, $2, $5}' >> isa-l.h
+echo '#define ISAL_MAKE_VERSION(maj, min, patch)  ((maj) * 0x10000 + (min) * 0x100 + (patch))' >> isa-l.h
+echo '#define ISAL_VERSION ISAL_MAKE_VERSION(ISAL_MAJOR_VERSION, ISAL_MINOR_VERSION, ISAL_PATCH_VERSION)' >> isa-l.h
+echo ''			>> isa-l.h
+for unit in include/crc.h include/crc64.h include/erasure_code.h include/gf_vect_mul.h include/igzip_lib.h include/mem_routines.h include/raid.h; do echo "#include <isa-l/$unit>" | sed -e 's;include/;;' >> isa-l.h; done
+echo '#endif //_ISAL_H_'	>> isa-l.h
+make --no-print-directory all-am
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing aclocal-1.13 
+ 
+ cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing automake-1.13 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /home/hadoop/nty/isa-l-master_20220708/isa-l-master/build-aux/missing autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --no-create --no-recursion
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking how to create a pax tar archive...  
+gnutar
+ 
+checking for style of include used by make...  
+GNU
+ 
+checking for gcc...  
+gcc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether gcc accepts -g...  
+yes
+ 
+checking for gcc option to accept ISO C89...  
+none needed
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking dependency style of gcc...  
+gcc3
+ 
+checking build system type...  
+x86_64-unknown-linux-gnu
+ 
+checking host system type...  
+x86_64-unknown-linux-gnu
+ 
+checking for gcc option to accept ISO C99...  
+-std=gnu99
+ 
+checking for gcc -std=gnu99 option to accept ISO Standard C... (cached)  
+-std=gnu99
+ 
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for fgrep...  
+/usr/bin/grep -F
+ 
+checking how to print strings...  
+printf
+ 
+checking for ld used by gcc -std=gnu99...  
+/usr/bin/ld
+ 
+checking if the linker (/usr/bin/ld) is GNU ld...  
+yes
+ 
+checking how to run the C preprocessor...  
+gcc -std=gnu99 -E
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking minix/config.h usability...  
+no
+ 
+checking minix/config.h presence...  
+no
+ 
+checking for minix/config.h...  
+no
+ 
+checking whether it is safe to define __EXTENSIONS__...  
+yes
+ 
+checking whether make supports nested variables...  
+(cached)  
+yes
+ 
+checking for BSD- or MS-compatible name lister (nm)...  
+/usr/bin/nm -B
+ 
+checking the name lister (/usr/bin/nm -B) interface...  
+BSD nm
+ 
+checking whether ln -s works...  
+yes
+ 
+checking the maximum length of command line arguments...  
+3458764513820540925
+ 
+checking whether the shell understands some XSI constructs...  
+yes
+ 
+checking whether the shell understands "+="...  
+yes
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format...  
+func_convert_file_noop
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format...  
+func_convert_file_noop
+ 
+checking for /usr/bin/ld option to reload object files...  
+-r
+ 
+checking for objdump...  
+objdump
+ 
+checking how to recognize dependent libraries...  
+pass_all
+ 
+checking for dlltool...  
+no
+ 
+checking how to associate runtime and link libraries...  
+printf %s\n
+ 
+checking for ar...  
+ar
+ 
+checking for archiver @FILE support...  
+@
+ 
+checking for strip...  
+strip
+ 
+checking for ranlib...  
+ranlib
+ 
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object...  
+ok
+ 
+checking for sysroot...  
+no
+ 
+checking for mt...  
+no
+ 
+checking if : is a manifest tool...  
+no
+ 
+checking for dlfcn.h...  
+yes
+ 
+checking for objdir...  
+.libs
+ 
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions...  
+no
+ 
+checking for gcc -std=gnu99 option to produce PIC...  
+-fPIC -DPIC
+ 
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works...  
+yes
+checking if gcc -std=gnu99 static flag -static works...  
+yes
+ 
+checking if gcc -std=gnu99 supports -c -o file.o...  
+yes
+ 
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+ 
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking whether -lc should be explicitly linked in...  
+no
+ 
+checking dynamic linker characteristics...  
+GNU/Linux ld.so
+ 
+checking how to hardcode library paths into programs...  
+immediate
+ 
+checking whether stripping libraries is possible...  
+yes
+ 
+checking if libtool supports shared libraries... yes
+ 
+checking whether to build shared libraries...  
+yes
+checking whether to build static libraries...  
+yes
+ 
+checking for a sed that does not truncate output...  
+(cached)  
+/usr/bin/sed
+ 
+checking whether Intel CET is enabled...  
+no
+ 
+checking for yasm...  
+yes
+ 
+checking for modern yasm...  
+yes
+ 
+checking for optional yasm AVX512 support...  
+no
+ 
+checking for nasm...  
+yes
+ 
+checking for modern nasm...  
+yes
+ 
+checking for optional nasm AVX512 support...  
+yes
+ 
+checking for additional nasm AVX512 support...  
+no
+ 
+Using nasm args target "linux" "-f elf64"
+ 
+checking for gf_init_easy in -lgf_complete...  
+yes
+ 
+checking limits.h usability...  
+yes
+ 
+checking limits.h presence...  
+yes
+ 
+checking for limits.h...  
+yes
+ 
+checking for stdint.h...  
+(cached)  
+yes
+ 
+checking for stdlib.h...  
+(cached)  
+yes
+ 
+checking for string.h...  
+(cached)  
+yes
+ 
+checking gf_complete.h usability...  
+yes
+ 
+checking gf_complete.h presence...  
+yes
+ 
+checking for gf_complete.h... yes
+ 
+checking gf_general.h usability...  
+yes
+ 
+checking gf_general.h presence...  
+yes
+ 
+checking for gf_general.h...  
+yes
+ 
+checking gf_method.h usability...  
+yes
+ 
+checking gf_method.h presence...  
+yes
+ 
+checking for gf_method.h...  
+yes
+ 
+checking gf_rand.h usability...  
+yes
+ 
+checking gf_rand.h presence...  
+yes
+ 
+checking for gf_rand.h...  
+yes
+ 
+checking for inline...  
+inline
+ 
+checking for size_t...  
+yes
+ 
+checking for uint16_t...  
+yes
+checking for uint32_t...  
+yes
+ 
+checking for uint64_t...  
+yes
+ 
+checking for uint8_t...  
+yes
+ 
+checking for stdlib.h...  
+(cached)  
+yes
+ 
+checking for GNU libc compatible malloc...  
+yes
+ 
+checking for memmove...  
+yes
+ 
+checking for memset...  
+yes
+ 
+checking for getopt...  
+yes
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+
+        isa-l 2.30.0
+        =====
+
+        prefix:                 /usr
+        sysconfdir:             ${prefix}/etc
+        libdir:                 ${exec_prefix}/lib
+        includedir:             ${prefix}/include
+
+        compiler:               gcc -std=gnu99
+        cflags:                 -g -O2
+        ldflags:                
+
+        debug:                  no
+
+ 
+ /bin/sh ./config.status
+ 
+config.status: creating Makefile
+ 
+config.status: creating libisal.pc
+ 
+config.status: executing depfiles commands
+ 
+config.status: executing libtool commands
+ 
+  CC       erasure_code/ec_base.lo
+ 
+erasure_code/ec_base.c: In function 'ec_encode_data_base':
+
+erasure_code/ec_base.c:307:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("ec_base/ec_encode_data_base 307\n");
+  ^
+erasure_code/ec_base.c:307:2: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+
+  CC       raid/raid_base.lo
+ 
+raid/raid_base.c: In function 'xor_gen_base':
+
+raid/raid_base.c:93:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("raid_base/xor_gen_base\n");
+  ^
+raid/raid_base.c:93:2: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+
+  CC       crc/crc_base.lo
+ 
+  CC       crc/crc64_base.lo
+ 
+  CC       igzip/igzip.lo
+ 
+  CC       igzip/hufftables_c.lo
+ 
+  CC       igzip/igzip_base.lo
+ 
+  CC       igzip/igzip_icf_base.lo
+ 
+  CC       igzip/adler32_base.lo
+ 
+  CC       igzip/flatten_ll.lo
+ 
+  CC       igzip/encode_df.lo
+ 
